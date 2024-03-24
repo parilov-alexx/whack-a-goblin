@@ -1,0 +1,92 @@
+.field {
+    color: black;
+    cursor: url(../img/icons8-thor-hammer-96.png) 30 1, pointer;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 4em;
+    font-weight: 800;
+    
+
+    display: flex;
+    flex-direction: row;
+}
+.box {
+    width: 800px;
+    height: 800px;
+    background-color: #999;
+
+    padding: 0;
+    margin: 100px 40px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    box-sizing: border-box;
+}
+
+.cell {
+    list-style: none;
+ 
+
+    
+    border: medium solid black;
+    
+    width: 200px;
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+    
+}
+
+.goblin {
+    width: 180px;
+}
+
+.field:active {
+    cursor: url(../img/icons8-thor-2.png), pointer;
+}
+
+.manage {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 40px;
+    padding: 0;
+
+ 
+}
+.button {
+    list-style: none;
+    border: 5px solid #1e5e99;
+    border-radius: 15px;
+    background-color: #5ff0fd;
+
+    
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    margin: 100px 0;
+}
+
+.button:active {
+    background: #e2f0fb;
+}
+.score {
+    list-style: none;
+    border: 5px solid #1e5e99;
+    border-radius: 15px;
+    background-color: #5ff0fd;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.resultBox {
+    list-style: none;
+    text-align: center;
+    margin: 30px 0;
+    color:crimson
+
+}
