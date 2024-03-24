@@ -1,4 +1,4 @@
-name: whack a Jack
+name: whack a Goblin
 
 on: [push, pull_request]
 
